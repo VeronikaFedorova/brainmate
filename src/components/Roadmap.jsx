@@ -1,5 +1,6 @@
 import { check2, grid, loading1 } from "../assets";
 import { roadmap } from "../constants";
+import Button from "./Button";
 import Heading from "./Heading";
 import Section from "./Section";
 import Tagline from "./Tagline";
@@ -62,6 +63,7 @@ const Roadmap = () => {
             );
           })}
         </div>
+        <Button className='relative left-[50%] translate-x-[-50%] mt-8' children='Our roadmap' />
       </div>
     </Section>
   );
